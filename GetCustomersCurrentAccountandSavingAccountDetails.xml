@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<getAccountbyRimReply>
+	<eAI_BODY>
+		<referenceNum>569160123740977096</referenceNum>
+		<accountType>
+			<accountNumber>12235559</accountNumber>
+			<accountType>CUR</accountType>
+			<classCode>101</classCode>
+			<classDesc>AED - Current Account</classDesc>
+			<branchCode>54</branchCode>
+			<currencyCode>AED</currencyCode>
+			<status>Active</status>
+			<customerNumber>279608</customerNumber>
+			<relationShipName>Awadh H. Al Mansoori</relationShipName>
+			<relationShipId>9381</relationShipId>
+			<ibanNum>AE590500000000012235559</ibanNum>
+			<balanceCurrent>3435.830000</balanceCurrent>
+			<balanceAvailable>3435.830000</balanceAvailable>
+			<snapIn>
+				<nameValue Name="Appl_Type" Value="CK"/>
+			</snapIn>
+			<snapIn>
+				<nameValue Name="Acct_Desc" Value=" "/>
+			</snapIn>
+			<snapIn>
+				<nameValue Name="hold_bal" Value="0.000000"/>
+			</snapIn>
+			<snapIn>
+				<nameValue Name="no_signatures" Value="1"/>
+			</snapIn>
+			<snapIn>
+				<nameValue Name="title_1" Value="title_1"/>
+			</snapIn>
+			<snapIn>
+				<nameValue Name="title_2" Value="title_2"/>
+			</snapIn>
+			<snapIn>
+				<nameValue Name="memo_float" Value="0.000000"/>
+			</snapIn>
+			<snapIn>
+				<nameValue Name="contract_dt" Value="2008-05-24 00:00:00"/>
+			</snapIn>
+		</accountType>
+		<requestTime>20240530114010121</requestTime>
+		<returnStatus>
+			<returnCode>0000</returnCode>
+			<returnCodeDesc>Successful</returnCodeDesc>
+		</returnStatus>
+		<returnStatusProvider>
+			<returnCodeProvider>00</returnCodeProvider>
+			<returnCodeDescProvider>Successful</returnCodeDescProvider>
+		</returnStatusProvider>
+	</eAI_BODY>
+</getAccountbyRimReply>
