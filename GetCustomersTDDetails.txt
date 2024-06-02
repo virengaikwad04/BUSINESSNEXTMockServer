@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<NS1:esbServiceReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/">
+			<referenceNum>569372104650806935</referenceNum>
+			<data><![CDATA[<NS1:getAccountbyRimReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/"><eAI_HEADER><serviceName>GET.ACCT.BYCUSTID</serviceName><serviceType>SYNC</serviceType><serviceVersion>1.0</serviceVersion><client>ADIB</client><clientChannel>CRMR</clientChannel><msgChannel>HTTP</msgChannel><requestorLanguage>E</requestorLanguage><securityInfo><authentication><UserId>CRMR</UserId><Password>XXXXXXXXXX</Password></authentication></securityInfo><returnCode>0000</returnCode></eAI_HEADER><eAI_BODY><referenceNum>569372104650806935</referenceNum><accountType><accountNumber>21399127</accountNumber><accountType>SAV</accountType><classCode>201</classCode><classDesc>AED- Savings Account</classDesc><branchCode>2</branchCode><currencyCode>AED</currencyCode><status>Active</status><customerNumber>278613</customerNumber><relationShipName>Hamda Khalifa Aldhaheri</relationShipName><relationShipId>9061</relationShipId><ibanNum>AE710500000000021399127</ibanNum><balanceCurrent>50006.350000</balanceCurrent><balanceAvailable>46419.400000</balanceAvailable><snapIn><nameValue Name="Appl_Type" Value="SV"/></snapIn><snapIn><nameValue Name="Acct_Desc" Value=" "/></snapIn><snapIn><nameValue Name="hold_bal" Value="318.360000"/></snapIn><snapIn><nameValue Name="no_signatures" Value="1"/></snapIn><snapIn><nameValue Name="title_1" Value="title_1"/></snapIn><snapIn><nameValue Name="title_2" Value="title_2"/></snapIn><snapIn><nameValue Name="memo_float" Value="0.000000"/></snapIn><snapIn><nameValue Name="contract_dt" Value="2008-05-18 00:00:00"/></snapIn></accountType><requestTime>20240319122108411</requestTime><returnStatus><returnCode>0000</returnCode><returnCodeDesc>Successful</returnCodeDesc></returnStatus><returnStatusProvider><returnCodeProvider>00</returnCodeProvider><returnCodeDescProvider>Successful</returnCodeDescProvider></returnStatusProvider></eAI_BODY></NS1:getAccountbyRimReply>]]></data>
+			<returnStatus>
+				<returnCode>0000</returnCode>
+				<returnCodeDesc>Successful</returnCodeDesc>
+			</returnStatus>
+			<returnStatusProvider>
+				<returnCodeProvider>00</returnCodeProvider>
+				<returnCodeDescProvider>Successful</returnCodeDescProvider>
+			</returnStatusProvider>
+		</NS1:esbServiceReply>
+	</soapenv:Body>
+</soapenv:Envelope>

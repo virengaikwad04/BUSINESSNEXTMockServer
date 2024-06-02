@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<NS1:eaiServiceReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/"><referenceNum>N/A</referenceNum><clientChannel>SPWF</clientChannel><serviceName>dispatcher</serviceName><UserId>DUMMY</UserId><Password>DUMMY</Password><data><NS1:sendEmailReply><eAI_HEADER><serviceName>dispatcher</serviceName><serviceType>SYNC</serviceType><serviceVersion>1.0</serviceVersion><client>ADIB</client><clientChannel>SPWF</clientChannel><msgChannel>HTTP</msgChannel><requestorLanguage>E</requestorLanguage><securityInfo><authentication><UserId>DUMMY</UserId><Password>DUMMY</Password></authentication></securityInfo><returnCode>9999</returnCode></eAI_HEADER><eAI_BODY><referenceNum>N/A</referenceNum><referenceNumConsumer>N/A</referenceNumConsumer><referenceNumProvider>N/A</referenceNumProvider><requestTime>20240520165337486</requestTime><returnStatus><returnCode>9993</returnCode><returnCodeDesc>Parser related error.</returnCodeDesc></returnStatus></eAI_BODY></NS1:sendEmailReply></data></NS1:eaiServiceReply></soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<NS1:esbServiceReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/">
+			<referenceNum>5694769408691</referenceNum>
+			<data><![CDATA[<NS1:finnoneDocumentUploadReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/"><eAI_HEADER><serviceName>DATA.UPLOAD</serviceName><serviceType>SYNC</serviceType><serviceVersion>1.0</serviceVersion><client>ADIB</client><clientChannel>CRMR</clientChannel><msgChannel>HTTP</msgChannel><requestorLanguage>E</requestorLanguage><securityInfo><authentication><UserId>CRMR</UserId><Password>XXXXXXXXXX</Password></authentication></securityInfo><returnCode>0000</returnCode></eAI_HEADER><eAI_BODY><referenceNum>5694769408691</referenceNum><transactionId>5694769408691</transactionId><serviceName>Document.Service</serviceName><rimNumber>279603</rimNumber><channelName>CRMR</channelName><status>Received</status><returnStatus><returnCode>0000</returnCode><returnCodeDesc>Success</returnCodeDesc></returnStatus><returnStatusProvider><returnCodeProvider>0</returnCodeProvider><returnCodeDescProvider>SUCCESS</returnCodeDescProvider></returnStatusProvider><requestTime>20240530115526986</requestTime></eAI_BODY></NS1:finnoneDocumentUploadReply>]]></data>
+			<returnStatus>
+				<returnCode>0000</returnCode>
+				<returnCodeDesc>Success</returnCodeDesc>
+			</returnStatus>
+			<returnStatusProvider>
+				<returnCodeProvider>0</returnCodeProvider>
+				<returnCodeDescProvider>SUCCESS</returnCodeDescProvider>
+			</returnStatusProvider>
+		</NS1:esbServiceReply>
+	</soapenv:Body>
+</soapenv:Envelope>

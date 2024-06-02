@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<NS1:esbServiceReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/">
+			<referenceNum>56920240530115650934</referenceNum>
+			<data><![CDATA[<NS1:finnAppStatusReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/"><eAI_HEADER><serviceName>FINNONE.INTEGRATION</serviceName><serviceType>SYNC</serviceType><serviceVersion>1.0</serviceVersion><client>ADIB</client><clientChannel>CRMR</clientChannel><msgChannel>HTTP</msgChannel><locationInfo><countryCode>AE</countryCode></locationInfo><requestorLanguage>E</requestorLanguage><securityInfo><authentication><UserId>CRMR</UserId><Password>XXXXXXXXXX</Password></authentication></securityInfo><returnCode>0000</returnCode></eAI_HEADER><eAI_BODY><referenceNum>56920240530115650934</referenceNum><transactionId>CRM-32654-10085668</transactionId><channelName>CRM</channelName><serviceName>GET.APPSTATUS</serviceName><agreementId>1339046</agreementId><appRefNum>CRM-32654</appRefNum><rimNumber>279603</rimNumber><approvedAmt>15000</approvedAmt><tenure>14</tenure><emi>1118.68</emi><totalRepayment>15661.52</totalRepayment><cbFee>22</cbFee><statusCode>REJ</statusCode><customerName>MUHAMMED  HANEEF</customerName><customerEmail>SUSHALI.DASAN@ADIB.COM</customerEmail><mobileNo>971563380185</mobileNo><ifecode>006113</ifecode><prodCategory>PERSONAL</prodCategory><prodName>SUKUK FINANCE</prodName><schemeId>2384</schemeId><schemeName>SUKUK 5K TO 8K SALARY SEGMENT- STL</schemeName><sourcingChannel>BRANCH</sourcingChannel><digitalChannel>CRM</digitalChannel><branchId>92</branchId><branchName>Abu Dhabi Police GHQ</branchName><stageId>REJ</stageId><rejectReason><reason/><reason/><reason>// BDE change stage validation failed. //Please enter details on Service Detail Screen</reason></rejectReason><returnStatus><returnCode>0000</returnCode><returnCodeDesc>Success</returnCodeDesc></returnStatus><returnStatusProvider><returnCodeProvider>0000</returnCodeProvider><returnCodeDescProvider>Success</returnCodeDescProvider></returnStatusProvider><requestTime>20240530115651778</requestTime></eAI_BODY></NS1:finnAppStatusReply>]]></data>
+			<returnStatus>
+				<returnCode>0000</returnCode>
+				<returnCodeDesc>Success</returnCodeDesc>
+			</returnStatus>
+			<returnStatusProvider>
+				<returnCodeProvider>0000</returnCodeProvider>
+				<returnCodeDescProvider>Success</returnCodeDescProvider>
+			</returnStatusProvider>
+		</NS1:esbServiceReply>
+	</soapenv:Body>
+</soapenv:Envelope>

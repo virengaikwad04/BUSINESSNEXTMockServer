@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<NS1:esbServiceReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/">
+			<referenceNum>56920240302162806705</referenceNum>
+			<data><![CDATA[<NS1:finnoneDataEntryReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/"><eAI_HEADER><serviceName>DATA.UPLOAD</serviceName><serviceType>SYNC</serviceType><serviceVersion>1.0</serviceVersion><client>ADIB</client><clientChannel>CRMR</clientChannel><msgChannel>HTTP</msgChannel><locationInfo><countryCode>AE</countryCode></locationInfo><requestorLanguage>E</requestorLanguage><securityInfo><authentication><UserId>CRMR</UserId><Password>XXXXXXXXXX</Password></authentication></securityInfo><returnCode>0000</returnCode></eAI_HEADER><eAI_BODY><referenceNum>56920240302162806705</referenceNum><applicationID>1337414</applicationID><returnStatus><returnCode>9001</returnCode><returnCodeDesc>Provider Error</returnCodeDesc></returnStatus><returnStatusProvider><returnCodeProvider>99</returnCodeProvider><returnCodeDescProvider>// QDE change stage validation failed2. //Please select Emirates Guest Number.//</returnCodeDescProvider></returnStatusProvider><requestTime>20240302162809892</requestTime></eAI_BODY></NS1:finnoneDataEntryReply>]]></data>
+			<returnStatus>
+				<returnCode>9001</returnCode>
+				<returnCodeDesc>Provider Error</returnCodeDesc>
+			</returnStatus>
+			<returnStatusProvider>
+				<returnCodeProvider>99</returnCodeProvider>
+				<returnCodeDescProvider>// QDE change stage validation failed2. //Please select Emirates Guest Number.//</returnCodeDescProvider>
+			</returnStatusProvider>
+		</NS1:esbServiceReply>
+	</soapenv:Body>
+</soapenv:Envelope>

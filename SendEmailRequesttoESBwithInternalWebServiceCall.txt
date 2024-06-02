@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<NS1:eaiServiceReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/">
+			<referenceNum>5696722590956</referenceNum>
+			<clientChannel>CRMR</clientChannel>
+			<serviceName>EMAIL.MANAGEMENT</serviceName>
+			<UserId>CRMR</UserId>
+			<Password>Secure@123</Password>
+			<data>
+				<NS1:sendEmailReply>
+					<eAI_HEADER>
+						<serviceName>EMAIL.MANAGEMENT</serviceName>
+						<serviceType>SYNC</serviceType>
+						<serviceVersion>1.0</serviceVersion>
+						<client>ADIB</client>
+						<clientChannel>CRMR</clientChannel>
+						<msgChannel>HTTP</msgChannel>
+						<requestorLanguage>E</requestorLanguage>
+						<securityInfo>
+							<authentication>
+								<UserId>CRMR</UserId>
+								<Password>Secure@123</Password>
+							</authentication>
+						</securityInfo>
+						<returnCode>0000</returnCode>
+					</eAI_HEADER>
+					<eAI_BODY>
+						<referenceNum>5696722590956</referenceNum>
+						<requestTime>20240530114959272</requestTime>
+						<returnStatus>
+							<returnCode>0000</returnCode>
+							<returnCodeDesc>Successful.</returnCodeDesc>
+						</returnStatus>
+						<returnStatusProvider>
+							<returnCodeProvider>00</returnCodeProvider>
+							<returnCodeDescProvider>Email Sent</returnCodeDescProvider>
+						</returnStatusProvider>
+					</eAI_BODY>
+				</NS1:sendEmailReply>
+			</data>
+		</NS1:eaiServiceReply>
+	</soapenv:Body>
+</soapenv:Envelope>

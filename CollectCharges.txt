@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<NS1:esbServiceReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/">
+			<referenceNum>56920240529141437210</referenceNum>
+			<data><![CDATA[<NS1:finnCollectChargeReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/"><eAI_HEADER><serviceName>FINNONE.INTEGRATION</serviceName><serviceType>SYNC</serviceType><serviceVersion>1.0</serviceVersion><client>ADIB</client><clientChannel>CRMR</clientChannel><msgChannel>HTTP</msgChannel><locationInfo><countryCode>AE</countryCode></locationInfo><requestorLanguage>E</requestorLanguage><securityInfo><authentication><UserId>CRMR</UserId><Password>XXXXXXXXXX</Password></authentication></securityInfo><returnCode>0000</returnCode></eAI_HEADER><eAI_BODY><referenceNum>56920240529141437210</referenceNum><transactionId>CRM-32572-10081072</transactionId><channelName>CRM</channelName><serviceName>COLLECT.IMDCHARGES</serviceName><agreementId>1338981</agreementId><rimNumber>279120</rimNumber><chargeResponse><chargesStatus><chargeCodeID>35</chargeCodeID><chargeStatus>C</chargeStatus><rejectReason>CHARGES RECEIVED</rejectReason></chargesStatus><chargesStatus><chargeCodeID>700472</chargeCodeID><chargeStatus>C</chargeStatus><rejectReason>CHARGES RECEIVED</rejectReason></chargesStatus></chargeResponse><returnStatus><returnCode>0000</returnCode><returnCodeDesc>Success</returnCodeDesc></returnStatus><returnStatusProvider><returnCodeProvider>0000</returnCodeProvider><returnCodeDescProvider>Success</returnCodeDescProvider></returnStatusProvider><requestTime>20240529141439705</requestTime></eAI_BODY></NS1:finnCollectChargeReply>]]></data>
+			<returnStatus>
+				<returnCode>0000</returnCode>
+				<returnCodeDesc>Success</returnCodeDesc>
+			</returnStatus>
+			<returnStatusProvider>
+				<returnCodeProvider>0000</returnCodeProvider>
+				<returnCodeDescProvider>Success</returnCodeDescProvider>
+			</returnStatusProvider>
+		</NS1:esbServiceReply>
+	</soapenv:Body>
+</soapenv:Envelope>
+ 

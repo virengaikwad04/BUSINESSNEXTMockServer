@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<NS1:esbServiceReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/">
+			<referenceNum>56920240521144904774</referenceNum>
+			<data><![CDATA[<NS1:finnGetChargeStatusReply xmlns:NS1="urn:esbbank.com/gbo/xml/schemas/v1_0/"><eAI_HEADER><serviceName>FINNONE.INTEGRATION</serviceName><serviceType>SYNC</serviceType><serviceVersion>1.0</serviceVersion><client>ADIB</client><clientChannel>CRMR</clientChannel><msgChannel>HTTP</msgChannel><locationInfo><countryCode>AE</countryCode></locationInfo><requestorLanguage>E</requestorLanguage><securityInfo><authentication><UserId>CRMR</UserId><Password>XXXXXXXXXX</Password></authentication></securityInfo><returnCode>0000</returnCode></eAI_HEADER><eAI_BODY><referenceNum>56920240521144904774</referenceNum><transactionId>CRM-56920240521144904774</transactionId><channelName>CRM</channelName><serviceName>GET.CHARGESTATUS</serviceName><agreementId>1338707</agreementId><appRefNum>CRM-32534</appRefNum><rimNumber>279501</rimNumber><chargeResponse><chargesStatus><chargeCodeID>35</chargeCodeID><chargeStatus>C</chargeStatus><errorCode/><errorDescription/></chargesStatus><chargesStatus><chargeCodeID>700472</chargeCodeID><chargeStatus>C</chargeStatus><errorCode/><errorDescription/></chargesStatus></chargeResponse><returnStatus><returnCode>0000</returnCode><returnCodeDesc>Success</returnCodeDesc></returnStatus><returnStatusProvider><returnCodeProvider>0000</returnCodeProvider><returnCodeDescProvider>Success</returnCodeDescProvider></returnStatusProvider><requestTime>20240521144905097</requestTime></eAI_BODY></NS1:finnGetChargeStatusReply>]]></data>
+			<returnStatus>
+				<returnCode>0000</returnCode>
+				<returnCodeDesc>Success</returnCodeDesc>
+			</returnStatus>
+			<returnStatusProvider>
+				<returnCodeProvider>0000</returnCodeProvider>
+				<returnCodeDescProvider>Success</returnCodeDescProvider>
+			</returnStatusProvider>
+		</NS1:esbServiceReply>
+	</soapenv:Body>
+</soapenv:Envelope>
