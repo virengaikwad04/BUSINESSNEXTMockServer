@@ -1,0 +1,99 @@
+<data>
+		<![CDATA[
+		<io:cardInquiryReply xmlns:io="urn:esbbank.com/gbo/xml/schemas/v1_0/">
+			<eAI_HEADER>
+				<serviceName>CARD.OFFLINE.INQUIRY</serviceName>
+				<serviceType>SYNC</serviceType>
+				<serviceVersion>1.0</serviceVersion>
+				<client>ADIB</client>
+				<clientChannel>CRMR</clientChannel>
+				<msgChannel>HTTP</msgChannel>
+				<requestorLanguage>E</requestorLanguage>
+				<securityInfo>
+					<authentication>
+						<UserId>CRMR</UserId>
+						<Password>XXXXXXXXXX</Password>
+					</authentication>
+				</securityInfo>
+				<returnCode>0000</returnCode>
+			</eAI_HEADER>
+			<eAI_BODY>
+				<referenceNum>569211763404152726</referenceNum>
+				<referenceNumProvider>aafcc72a-61e8-4bc7-bb98-1a3ba3fdb7cc</referenceNumProvider>
+				<cardInquiry>GETCARDSUMARRYBYCUSTOMERID</cardInquiry>
+				<cardSummaryReply>
+					<customerId>278609</customerId>
+					<cardInfo>
+						<accountNo>4421690011162071</accountNo>
+						<cardData>
+							<cardNo>4421690010941343</cardNo>
+							<embossingName>KAZA MUHAMMAD</embossingName>
+							<expiryDate>0529</expiryDate>
+							<cardStatus>INACTIVE</cardStatus>
+							<cardStatusGeneral>INACTIVE</cardStatusGeneral>
+							<primaryCardFlag>P</primaryCardFlag>
+							<productDesc>BOOKING.COM</productDesc>
+							<nameLatin>
+								<nickName>MR</nickName>
+								<fullName>Kaza Muhammad</fullName>
+								<firstName>Kaza</firstName>
+								<LastName>Muhammad</LastName>
+							</nameLatin>
+							<Authorization>
+								<nameValue Name="AuthCashLimit" Value=""/>
+							</Authorization>
+							<snapIns>
+								<nameValue Name="CardSerno" Value="6988770"/>
+								<nameValue Name="ProductSerno" Value="430"/>
+								<nameValue Name="AccountSerNo"/>
+								<nameValue Name="BankAccount"/>
+								<nameValue Name="Activated" Value="A"/>
+								<nameValue Name="PreviousExpiryDate" Value=""/>
+								<nameValue Name="CreateDate" Value="2024-05-02"/>
+								<nameValue Name="ProductShortCode" Value="P0053"/>
+								<nameValue Name="DOB" Value="1973-09-10"/>
+								<nameValue Name="Address1" Value=""/>
+								<nameValue Name="Address2" Value=""/>
+								<nameValue Name="Address3" Value=""/>
+								<nameValue Name="Address4" Value=""/>
+								<nameValue Name="City" Value=""/>
+								<nameValue Name="Zip" Value=""/>
+								<nameValue Name="Country" Value=""/>
+								<nameValue Name="Email" Value=""/>
+								<nameValue Name="PreviousCardNumber"/>
+							</snapIns>
+							<Extensions>
+								<nameValue Name="768" Value="35000"/>
+								<nameValue Name="750" Value="GOLD-SALARY (MASS AFFLUENT)"/>
+								<nameValue Name="769" Value="WAIVED"/>
+								<nameValue Name="751" Value="AE-UNITED ARAB EMIRATES"/>
+								<nameValue Name="20176" Value="2026-05-01"/>
+								<nameValue Name="20029" Value="784-1973-1532648-9"/>
+								<nameValue Name="20003" Value="000"/>
+							</Extensions>
+							<Online>
+								<nameValue Name="OTB" Value="19656.7"/>
+								<nameValue Name="LastAuthDate" Value=""/>
+							</Online>
+						</cardData>
+						<Authorization>
+							<nameValue Name="CustomerNo" Value="1111605611"/>
+							<nameValue Name="AccountNo" Value="4421690011162071"/>
+							<nameValue Name="StGeneral"/>
+							<nameValue Name="LastTrxnDate"/>
+						</Authorization>
+					</cardInfo>
+				</cardSummaryReply>
+				<requestTime>20240523092445809</requestTime>
+				<returnStatus>
+					<returnCode>0000</returnCode>
+					<returnCodeDesc>Successful</returnCodeDesc>
+				</returnStatus>
+				<returnStatusProvider>
+					<returnCodeProvider>0</returnCodeProvider>
+					<returnCodeDescProvider>OK</returnCodeDescProvider>
+				</returnStatusProvider>
+			</eAI_BODY>
+		</io:cardInquiryReply>
+		]]>
+	</data>
